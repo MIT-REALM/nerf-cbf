@@ -73,7 +73,7 @@
           <h1 class="title is-1 publication-title">Enforcing safety for vision-based controllers via Control Barrier Functions and Neural Radiance Fields</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a>Mukun Tong</a>,</span>
+              Mukun Tong,</span>
             <span class="author-block">
               <a href="https://dawson.mit.edu">Charles Dawson</a>,</span>
             <span class="author-block">
@@ -137,31 +137,20 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="./static/images/image.png"
-        class="center-image"
-        alt="image.png"/>
       <h2 class="subtitle has-text-centered">
         <br/>
         Combining CBFs and NeRFs to filter out unsafe actions and preserve safety for robots.
       </h2>
+      <div class="publication-video">
+        <iframe src="https://www.youtube.com/embed/BXh05217FJ4?rel=0&amp;showinfo=0"
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
     </div>
   </div>
 </section>
 
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/BXh05217FJ4?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <!--/ Paper video. -->
-
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -213,12 +202,14 @@
 
         <div class="content has-text-justified">
           <p>
-            This work is part of a broader research thread around <emph>TODO</emph>, which allow us to TODO. TODO: e.g. For a survey of the field of learned certificates, see <a rel="survey" href="https://arxiv.org/pdf/2202.11762.pdf">this paper</a>.
+            This work is part of a broader research thread around learned certificates, which allow us to build data-driven proofs of controller correctness. For a survey of the field of learned certificates, see <a rel="survey" href="https://arxiv.org/pdf/2202.11762.pdf">this paper</a>.
           </p>
           <p>
-            Other work on TODO from our lab include:
+            Other work on learned certificates from our lab include:
             <ul>
-              <li><a href="TODO.mit.edu">example 1</a>.</li>
+              <li><a href="https://mit-realm.github.io/realm-locus-ral-icra-22/">Learning perception-based certificates for Lidar observations</a>.</li>
+              <li><a href="https://proceedings.mlr.press/v164/dawson22a/dawson22a.pdf">Training robust controllers using neural Lyapunov-barrier functions</a>.</li>
+              <li><a href="http://arxiv.org/abs/2101.05436">Learning neural barrier functions for decentralized multi-agent control</a>.</li>
             </ul>
           </p>
       </div>
@@ -231,12 +222,14 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{tong2022enforcing,
-  title={Enforcing safety for vision-based controllers via Control Barrier Functions and Neural Radiance Fields},
-  author={Tong, Mukun and Dawson, Charles and Fan, Chuchu},
-  journal={arXiv preprint arXiv:2209.12266},
-  year={2022}
-}</code></pre>
+    <pre><code>
+@inproceedings{tong2022enforcing,
+  title     = {Enforcing safety for vision-based controllers via Control Barrier Functions and Neural Radiance Fields},
+  author    = {Tong, Mukun and Dawson, Charles and Fan, Chuchu},
+  booktitle = {2023 IEEE International Conference on Robotics and Automation (ICRA)},
+  year      = {2023}
+}
+</code></pre>
   </div>
 </section>
 
